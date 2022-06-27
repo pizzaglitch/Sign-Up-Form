@@ -55,7 +55,7 @@ body {
 
 #header {
     width: 70vw;
-    height: 300px;
+    height: 370px;
     background: rgba(243, 243, 243, 0.8);
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ body {
 .header-text {
     font-family: Arial, Helvetica, sans-serif;
     width: 550px;
-    margin: 150px 40px 0px;
+    margin: 250px 40px 0px;
 }
 
 .header-lower-text {
@@ -85,8 +85,52 @@ h2 {
     margin: 20px 0px 20px 40px; 
 }
 
+/* sloppy margin formatting for labels / inputs  */
+label[for=fname], label[for=password], label[for=email] {
+    margin-right: 250px;
+}
+
+label[for=lname] {
+    margin-left: 15px;
+}
+label[for=phone]  {
+    margin-left: 58px;
+}
+
+label[for=confirm-password] {
+    margin-left: 21px;
+}
+
+label, input {
+    width: 250px;
+    height: 20px;
+    margin: 0px 50px 15px 40px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+label {
+    letter-spacing: 1px;
+}
+
+.password-match {
+    position:relative;
+    margin-left: 40px; 
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; 
+    color: red;
+}
+input:focus {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3)
+}
+
+
+input[for=password], input[for=confirm-password] {
+
+}
 #footer {
-    height: 100%;
+    height: 250px;
     width: 70vw;
     background: rgba(243, 243, 243, 0.8);
     
