@@ -86,7 +86,7 @@ h2 {
 }
 
 /* sloppy margin formatting for labels / inputs  */
-label[for=fname], label[for=password], label[for=email] {
+/* label[for=fname], label[for=password], label[for=email] {
     margin-right: 250px;
 }
 
@@ -99,14 +99,36 @@ label[for=phone]  {
 
 label[for=confirm-password] {
     margin-left: 21px;
+} */
+#form {
+    width: 700px;
+}
+ 
+/* .name-labels, .name-inputs, .email-phone-labels, .email-phone-inputs, .password-labels, .password-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+} */
+
+
+label[for=lname] {
+    margin-left: 215px;
 }
 
+label[for=phone] {
+    margin-left: 257px;
+}
+
+label[for=confirm-password] {
+    margin-left: 220px;
+}
 label, input {
     width: 250px;
     height: 20px;
     margin: 0px 50px 15px 40px; 
     font-family: Arial, Helvetica, sans-serif;
     font-size:12px;
+    
 }
 
 label {
@@ -125,6 +147,10 @@ input:focus {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .3)
 }
 
+input:invalid {
+    border-color: red;
+    border-radius: 3px;
+}
 
 input[for=password], input[for=confirm-password] {
 
