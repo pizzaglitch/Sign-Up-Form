@@ -147,14 +147,13 @@ input:focus {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .3)
 }
 
-input:invalid {
-    border-color: red;
-    border-radius: 3px;
+input[type=password]:invalid {
+    border-radius: 4px;
 }
 
-input[for=password], input[for=confirm-password] {
 
-}
+
+
 #footer {
     height: 250px;
     width: 70vw;
@@ -179,3 +178,4 @@ input[for=password], input[for=confirm-password] {
 #footer > .login > a {
     color: #dd7236;
 }
+
