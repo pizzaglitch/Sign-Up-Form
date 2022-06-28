@@ -17,7 +17,6 @@ body {
     display: flex;
     height: 100vh;
     overflow:hidden;
-    margin-right: 0px;
 }
 
 #content {
@@ -67,6 +66,7 @@ body {
 }
 
 #header {
+    height: 300px;
     background: rgba(243, 243, 243, 0.8);
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ body {
 .header-text {
     font-family: Arial, Helvetica, sans-serif;
     width: 550px;
-    margin: 90px 40px;
+    margin: 90px 40px 50px;
 }
 
 .header-lower-text {
@@ -94,32 +94,6 @@ body {
 h2 {
     margin: 20px 0px 20px 40px; 
 }
-
-/* sloppy margin formatting for labels / inputs  */
-/* label[for=fname], label[for=password], label[for=email] {
-    margin-right: 250px;
-}
-
-label[for=lname] {
-    margin-left: 15px;
-}
-label[for=phone]  {
-    margin-left: 58px;
-}
-
-label[for=confirm-password] {
-    margin-left: 21px;
-} */
-#form {
-    /* width: 700px; */
-}
- 
-/* .name-labels, .name-inputs, .email-phone-labels, .email-phone-inputs, .password-labels, .password-inputs {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 40px;
-} */
-
 
 label[for=lname] {
     margin-left: 215px;
@@ -185,6 +159,7 @@ input[type=password]:invalid {
     margin-left: 40px;
 }
 #footer > .login > a {
+    font-weight: bold;
     color: #dd7236;
 }
 
